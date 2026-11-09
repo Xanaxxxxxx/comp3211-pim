@@ -1,0 +1,15 @@
+# Run from the project folder: python3 main.py --script examples/demo.txt
+create note text="COMP3211 project ideas"
+create task description="Submit software engineering project" deadline=2026-11-20T20:00
+create event description="Project meeting" start=2026-11-12T15:00 alarm=2026-11-12T14:45
+create contact name="Chan Tai Man" address="Hung Hom, Hong Kong" mobile="+852 9123 4567"
+list
+search type = task && deadline < "2026-11-21T00:00"
+search (description contains "project" || text contains "COMP3211") && !(type = contact)
+update 1 text="COMP3211 project implementation complete"
+show 1
+save "demo.pim"
+delete 4
+load "demo.pim" --force
+show 4
+quit
