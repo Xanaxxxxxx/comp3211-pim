@@ -64,6 +64,7 @@ The coverage command regenerates `TEST_COVERAGE.md` and annotated line details u
 | `USER_MANUAL.pdf` | Commands, search, file operations and errors |
 | `REQUIREMENTS_COVERAGE.pdf` | US1-US11 and implementation rule mapping |
 | `TEST_COVERAGE.pdf` | Measured model line coverage |
+| `docs/design/` | Four design diagrams in PNG/PDF, English explanations and API reference |
 
 ## Decisions to align with your SRS
 
@@ -73,6 +74,6 @@ No existing group SRS or source code was supplied. The requirements coverage doc
 
 ## Submission scope and AI acknowledgement
 
-This folder contains the coding portion, unit tests, and implementation/test documentation. It does not contain the group's full SRS, formal design document, demonstration MP4, presentation slides/recording, or completed Honour Declaration. The short architecture description is developer documentation, not a replacement for the assignment's required design diagrams.
+This folder contains the coding portion, unit tests, implementation/test documentation and [four design diagrams with English explanations](docs/design/README.md). The group should integrate the diagrams and API reference into its final design document. It does not contain the group's full SRS, demonstration MP4, presentation slides/recording, or completed Honour Declaration.
 
 The implementation, tests, and accompanying documentation were prepared with OpenAI Codex assistance. Record this actual use in the supplied Honour Declaration. Group members must review and understand the code, decide their actual contributions, and complete their own names, IDs, signatures and dates. The declaration template has not been modified.
